@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(24, 24, 42);
+    background-image: url("hq720.jpg");
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 05px;
+    background-color: black;}
+
