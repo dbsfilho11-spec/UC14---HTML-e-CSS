@@ -1,0 +1,51 @@
+:root{
+    --cor-primaria: #B1CDF2;
+    --cor-secundaria: #97B5DE;
+    --cor-fundo: #5271A1;
+    --cor-texto:#295187;
+    --cor-branca: #103778;
+
+    --fonte-principal: Arial, sans-serif;
+
+    --border-radius: 10px;
+    --sombra: 0 4px 10px rgba(0,0,0, 0.1);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa{
+    background-color: var(--cor-branca);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--sombra);
+    text-align: center;
+    width: 300px;
+}
+
+h1{
+    color: var(--cor-primaria);
+}
+
+button{
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--cor-secundaria);
+}
