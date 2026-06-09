@@ -1,0 +1,46 @@
+:root{
+    --fundo-da-secao: #4a5c76;
+    --card-do-funcionario: #112240;
+    --titulo: #1E3A5F;
+    --texto: #3f3f3f;
+    --botoes-destaques: #2563EB;
+
+    --fonte-principal: Arial, sans-serif;
+
+    --border-radius: 10px;
+    --sombra: 0 4px 10px rgba(0,0,0, 0.1);
+}
+
+.h1-principal{
+    color: var(--titulo);
+    font-family: var(--fonte-principal);
+    margin-top: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: var(--fundo-da-secao);
+    font-family: var(--fonte-principal);
+    color: var(--texto);
+    margin: 0;
+    padding: 0;
+}
+
+.card-funcionario{
+    background-color: var(--card-do-funcionario);
+    border-radius: var(--border-radius);
+    box-shadow: var(--sombra);
+    padding: 100px;
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.p-funcionario{
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
